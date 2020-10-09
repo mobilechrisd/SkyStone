@@ -28,7 +28,6 @@ public class LittleBlueTeleop extends OpMode
             rightFront.setMode(DcMotor.RunMode.RUN_USING_ENCODER);
             rightFront.setDirection(DcMotorSimple.Direction.REVERSE);
             rightFront.setZeroPowerBehavior(DcMotor.ZeroPowerBehavior.BRAKE);
-
         }
         catch (Exception p_exeception)
         {
